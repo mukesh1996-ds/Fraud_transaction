@@ -1,0 +1,27 @@
+base: 
+  project: Fraud_transaction_detection
+  random_state: 42
+  target_col: Class
+
+data_source:
+  source: data/creditcard.csv
+  
+'''split_data:
+  train_path: F:\Internship project\Machine Learning\Fraud Detection\Fraud_detection_dvc_mlops\data\processed\train_data.csv
+  test_path: F:\Internship project\Machine Learning\Fraud Detection\Fraud_detection_dvc_mlops\data\processed\test_data.csv
+  test_size: 0.3
+
+encoder:
+  train_path: data/encoder/train_encoded_mushrooms.csv
+  test_path: data/encoder/test_encoded_mushrooms.csv
+
+estimator:
+  RFC:
+    params:
+      cache_size: 200
+      degree: 3
+
+model_dir: models/model.pkl
+
+config_path:
+  source : F:\Internship project\Machine Learning\Fraud Detection\Fraud_detection_dvc_mlops\params.yaml'''
