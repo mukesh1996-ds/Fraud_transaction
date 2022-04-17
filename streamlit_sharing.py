@@ -5,7 +5,7 @@ from app_frame import app_frame
 import base64
 
 def main():
-    st.title("Mushroom Prediction&#127812;")
+    st.title("Fraud Detection&#127812;")
 
     html_temp= """
     <div style="background-color:Blanchedalmond;padding:15px">
