@@ -9,7 +9,7 @@ logger_object=App_Logger()
 
 
 def read_params(config):
-    with open(--config) as yaml_file:
+    with open(config) as yaml_file:
         config = yaml.safe_load(yaml_file)
     return config
 
